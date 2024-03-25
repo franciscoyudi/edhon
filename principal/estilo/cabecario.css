@@ -1,0 +1,107 @@
+:root{
+    --cor0:#0d0221;
+    --cor1:#101419;
+    --cor2:#6f8695;
+    --cor3:rgb(0, 0, 0);
+    --cor4:#d9d7dd;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width: 626px){
+    header{
+        background:linear-gradient(to right,var(--cor3) 10%,#000938 95% );
+        height: 90px;
+        width: 100%;
+        position: relative;
+        box-shadow: 0px 20px 17px rgba(0, 0, 0, 0.411);
+        z-index: 100;
+    
+    
+    }
+    .logo{
+        filter: drop-shadow(2px 2px 4px rgb(250, 239, 174));
+    }
+    ul{
+        position: absolute;
+        display: flex;
+        right: 30px;
+        top: 50%;
+        transform: translate(0%,-50%);
+        list-style-type: none;
+        gap: 20px;
+        
+        
+    
+        
+    
+    }
+    header a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+        padding: 10px 15px;
+        background-color: var(--cor2);
+        border-radius: 10px;
+        transition: 300ms;
+        
+    
+    }
+    header a:hover{
+        padding: 15px;
+        background-color: #3590cc;
+    }
+
+}
+@media (max-width: 625px){
+    header{
+        background-color: var(--cor3);
+        height: 170px;
+        width: 100%;
+        position: relative;
+        box-shadow: 0px 20px 17px rgba(0, 0, 0, 0.39);
+    
+    
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        filter: drop-shadow(2px 2px 4px rgb(250, 239, 174));
+    }
+    ul{
+        position: absolute;
+        display: flex;
+        left: 50%;
+        top: 75%;
+        transform: translate(-50%,-50%);
+        list-style-type: none;
+        gap: 7px;
+        
+        
+    
+        
+    
+    }
+    header a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        background-color: var(--cor2);
+        border-radius: 10px;
+        transition: 300ms;
+    
+    }
+    header a:hover{
+        padding: 15px;
+        background-color:  #3590cc;
+    }
+
+}
