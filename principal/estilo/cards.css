@@ -1,0 +1,130 @@
+#c1 {
+    background: url(../img/fundo1.png);
+
+}
+
+#c2 {
+    background: url(../img/fundo2.png);
+}
+
+#c3 {
+    background: url(../img/fundo3.png);
+}
+
+#c4 {
+    background: url(../img/arteciabg.png);
+}
+
+#c1,
+#c2,
+#c3,
+#c4 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.CardP1 {
+    font-size: 2em;
+    padding: 5px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 5px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(0, -50%);
+}
+
+.CardP2 {
+    font-size: 1.7em;
+    padding: 5px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(0, -50%);
+}
+
+.main2 a {
+    color: #000;
+
+}
+
+.img {
+    border: solid black 5px;
+    margin-left: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+@media(min-width: 950px) {
+    .Tatuagens {
+        transition: 300ms;
+        width: 170px;
+        height: 200px;
+        position: relative;
+        border-radius: 10%;
+    }
+
+    .Tatuagens:hover {
+        width: 400px;
+        height: 200px;
+        border: solid rgb(0, 0, 0) 2px;
+        border-radius: 10px;
+    }
+
+    .Tatuagens:hover .CardP1 {
+        display: block;
+
+
+    }
+
+    .Cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards2 {
+        display: none;
+    }
+}
+
+
+/*---------------------------------------------------------------*/
+
+
+@media (max-width: 949px) {
+
+
+
+
+    .Cards {
+        display: none;
+    }
+
+    .Tatuagens2 {
+
+        width: 305px;
+        height: 160px;
+        border: solid rgb(0, 0, 0) 2px;
+        border-radius: 10px;
+        margin: 0px 0px 0px 5px;
+        position: relative;
+        margin: 0px 0px 10px 10px;
+
+    }
+
+    .main2 {
+        width: 400px;
+        margin: auto;
+    }
+
+
+}

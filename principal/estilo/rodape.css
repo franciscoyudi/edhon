@@ -1,0 +1,108 @@
+.foot2 {
+
+    width: 100%;
+    margin-top: 90px;
+    background: linear-gradient(to right, var(--cor3) 10%, #000938 95%);
+    box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.575);
+}
+
+.foot2 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 0px 2px 0px 2px;
+    display: block;
+    background-color: aliceblue;
+    margin: 5px;
+    border-radius: 10px;
+    width: 259px;
+    position: relative;
+}
+
+.foot2 p {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+}
+
+.foot2 h3 {
+    color: white;
+    padding: 10px 0px 5px 10px;
+}
+
+.foot2 nav {
+    position: absolute;
+    left: 20px;
+}
+
+.rod1 {
+    background-color: rgba(255, 255, 255, 0.144);
+    height: 250px;
+    width: 290px;
+
+
+    border-radius: 10px;
+
+
+
+}
+
+@media (min-width: 664px) {
+
+
+    .rod1,
+    .rod2 {
+        background-color: rgba(255, 255, 255, 0.144);
+        height: 250px;
+        width: 290px;
+        border-radius: 10px;
+        margin: 20px 0px 20px 20px;
+        position: relative;
+        padding: 10px;
+    }
+
+
+    .foot2 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+
+    }
+
+}
+
+@media (max-width: 663px) {
+
+    .foot2 {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .foot2 nav {
+        position: absolute;
+        left: 10px;
+    }
+
+    .rod1,
+    .rod2 {
+        background-color: rgba(255, 255, 255, 0.144);
+        height: 250px;
+        width: 290px;
+        border-radius: 10px;
+        margin: 20px 0px 20px 20px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+
+    .foot2 p {
+        display: inline-block;
+        position: absolute;
+        top: 7px;
+        left: 50px;
+    }
+}

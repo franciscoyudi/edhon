@@ -1,0 +1,116 @@
+:root {
+    --cor0: #0d0221;
+    --cor1: #101419;
+    --cor2: #6f8695;
+    --cor3: rgb(0, 0, 0);
+    --cor4: #d9d7dd;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, black, rgb(87, 82, 82))
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: url('../img/cabecario.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 20px 17px rgba(0, 0, 0, 0.411);
+    z-index: 100;
+}
+
+.logo {
+    filter: drop-shadow(2px 2px 4px rgb(250, 239, 174));
+}
+
+ul {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    transform: translate(0%, -80%);
+    list-style-type: none;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    padding: 10px 0px;
+
+}
+
+ul {
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.623);
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    padding: 10px 20px;
+    transition: 300ms;
+}
+
+.na1 {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.na2 {
+    border-radius: 0px 10px 10px 0px;
+}
+
+header a:hover {
+    background-color: #3590cc;
+}
+
+@media (min-width: 626px) {
+    .logo {
+        padding: 2px 0px 0px 20px;
+    }
+
+    ul {
+        right: 50px;
+        transform: translate(0%, -40%);
+    }
+}
+
+@media (max-width: 625px) {
+    header {
+        background-color: var(--cor3);
+        height: 170px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding-top: 6px;
+
+    }
+
+    header a {
+        padding: 10px 4.5px;
+        border: 0.1vmin solid #5f7280;
+    }
+
+    ul {
+        top: 85%;
+        padding: 10px 0px;
+    }
+
+    nav {
+        margin: auto;
+        width: 230px;
+        height: 40px;
+
+    }
+}

@@ -1,0 +1,61 @@
+/*TEXTO PRINCIPAL NO INICIO*/
+section{
+    width: 100vw;
+}
+#section1{
+    height: 650px;
+    background: url(../img/tatoo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.section1_filha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 490px;    
+    
+}
+#section1 h1{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 4px 1px rgba(0, 0, 0, 0.452);
+    background: rgba(0, 0, 0, 0.199);
+    padding: 5px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    
+}
+/*TEXTO PRINCIPAL NO INICIO*/
+
+#but{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    transition: 300ms;
+    border-radius: 20%;
+}
+#but:hover{
+    transform: translate(-50%,0%) scale(1.2) ;
+}
+
+@media (max-width: 968px){
+    #section1{
+        height: 470px;
+
+    }
+    .section1_filha{
+        height: 310px;
+    }
+    #section1 h1{
+        font-size: 1.7em;
+        padding: 3px;
+    }
+    #but{
+        width: 70px;
+    }
+
+}

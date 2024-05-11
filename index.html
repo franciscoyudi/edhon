@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDHON SILVA</title>
+    <link rel="stylesheet" href="principal/estilo/cabecario.css">
+    <link rel="stylesheet" href="principal/estilo/cards.css">
+    <link rel="stylesheet" href="principal/estilo/main.css">
+    <link rel="stylesheet" href="principal/estilo/rodape.css">
+    <link rel="website icon" href="principal/img/novalogo-removebg-preview.png">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="principal/img/novalogo-removebg-preview.png" alt="Edhon" width="90px" height="90px">
+        </div>
+        <nav>
+            <ul>
+                <li><a class="na1" href="index.html">Principal</a></li>
+                <li><a data-scroll="suave" href="#sobre">Biografia</a></li>
+                <li><a href="#footer">Contatos</a></li>
+                <li><a class="na2" href="#footer">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main1">
+        <div class="textPrinc">
+            <h1 class="dia"></h1>
+            <p>Filho natural de Ocara,<br> sou artista desde que me <br> entendo por gente.</p>
+        </div>
+        <div class="textPrinc2">
+            <h1 class="dia"></h1>
+            <p>Filho natural de Ocara,<br> sou artista desde que me <br> entendo por gente.</p>
+        </div>
+        <div class="edhon">
+        </div>
+    </main>
+    <div class="banner">
+        <h1>BANNER</h1>
+    </div>
+    <aside id="sobre">
+        <h1>SOBRE O EDHON</h1>
+    </aside>
+    <main class="main2">
+        <div class="Cards">
+            <a href="tatuagens/index.html">
+                <div class="Tatuagens" id="c1"><img src="principal/img/Tatu01.jpg" class="img" height="128px"
+                        width="128px">
+                    <p class="CardP1">Tatuagens</p>
+                </div>
+            </a>
+            <a href="pintura/pinturas.html">
+                <div class="Tatuagens" id="c2"><img src="principal/img/pinturas.jpg" class="img" height="128px"
+                        width="128px">
+                    <p class="CardP1">Pinturas</p>
+                </div>
+            </a>
+            <a href="quadros.html">
+                <div class="Tatuagens" id="c3"><img src="principal/img/quadros.jpg" class="img" height="128px"
+                        width="128px">
+                    <p class="CardP1">Grafite</p>
+                </div>
+            </a>
+            <a href="arteecia.html">
+                <div class="Tatuagens" id="c4"><img src="principal/img/artecia.jpg" class="img" height="128px"
+                        width="128px">
+                    <p class="CardP1">Arte Cia</p>
+                </div>
+            </a>
+        </div>
+        <div class="cards2">
+            <a href="tatuagens/index.html">
+                <div class="Tatuagens2" id="c1"><img src="principal/img/Tatu01.jpg" class="img" height="128px"
+                        width="128px">
+                    <p class="CardP2">Tatuagens</p>
+                </div>
+            </a>
+            <a href="pintura/pinturas.html">
+                <div class="Tatuagens2" id="c2"><img src="principal/img/pinturas.jpg" class="img" height="128px"
+                        width="128px">
+                    <p class="CardP2">Pinturas</p>
+                </div>
+            </a>
+            <a href="quadros.html">
+                <div class="Tatuagens2" id="c3"><img src="principal/img/quadros.jpg" class="img" height="128px"
+                        width="128px">
+                    <p class="CardP2">Grafite</p>
+                </div>
+            </a>
+            <a href="arteecia.html">
+                <div class="Tatuagens2" id="c4"><img src="principal/img/artecia.jpg" class="img" height="128px"
+                        width="128px">
+                    <p class="CardP2">Arte Cia</p>
+                </div>
+            </a>
+
+        </div>
+    </main>
+
+
+    <footer class="foot2" id="footer">
+        <div class="rod1" id="rod">
+            <h3>CONTAS INSTAGRAM:</h3>
+
+            <nav>
+
+                <a href="https://www.instagram.com/edhonsilvatattoo/" target='_blank' class="a">
+                    <img src="imgs/insta_logo.png" width="45px">
+                    <p>@edhonsilvatattoo</p>
+                </a>
+                <a href="https://www.instagram.com/edhonsilvaebanda/" target='_blank' class="a">
+                    <img src="imgs/insta_logo.png" width="45px">
+                    <p>@edhonsilvaebanda</p>
+                </a>
+
+                <a target='_blank' href="https://www.instagram.com/edhonsilvatelas923/" class="a">
+                    <img src="imgs/insta_logo.png" width="45px">
+                    <p>@edhonsilvatelas923</p>
+                </a>
+                <a href="https://www.instagram.com/semprepoesias18/" target='_blank' class="a">
+                    <img src="imgs/insta_logo.png" width="45px">
+                    <p>@semprepoesias18</p>
+                </a>
+            </nav>
+        </div>
+        <div class="rod2" id="rod">
+            <h3>ENDEREÇO:</h3>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script>
+        const comprimentar = document.querySelector('.dia')
+        const horaAtual = new Date();
+        let hora = horaAtual.getHours()
+        if (hora >= 0 && hora <= 5) {
+            comprimentar.innerHTML = `Boa Madrugada!<br> Sou Edhon Silva <br> Um Artista`
+        }
+        else if (hora >= 6 && hora <= 11) {
+            comprimentar.innerHTML = `Bom Dia!!<br> Sou Edhon Silva <br> Um Artista`
+        }
+        else if (hora >= 12 && hora < 18) {
+            comprimentar.innerHTML = `Boa Tarde!<br> Sou Edhon Silva <br> Um Artista`
+        } else {
+            comprimentar.innerHTML = `Boa Noite,<br> Sou Edhon Silva <br> Um Artista`
+        }
+    </script>
+
+
+</body>
+
+</html>

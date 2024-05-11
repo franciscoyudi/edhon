@@ -1,0 +1,44 @@
+#section3{
+    margin-top: 150px;
+    padding: 30px 0px;
+}
+.carrosel_imgs{
+    display: flex;
+    flex-direction: row;
+    filter: opacity(65%);
+    
+    
+}
+
+#carrosel1{
+    animation: carrosel1 20s infinite alternate;
+
+}
+#carrosel2{
+    animation: carrosel2 20s infinite alternate;
+}
+@keyframes carrosel1{
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes carrosel2{
+    from{
+        transform: translateX(-10%);
+    }
+    to{
+        transform: translateX(-60%);
+    }
+}
+@media (max-width: 968px){
+    #section3{
+        margin-top: 100px;
+    }
+    #imgsCarrosell{
+        height: 240px;
+    }
+
+}
