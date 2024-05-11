@@ -29,16 +29,18 @@
     color: white;
     background-color: black;
     border: none;
-    overflow: none;
+    outline: none;
     margin: 10px 0px;
     padding: 5px 5px;
 }
 #orçamento textarea{
     width: 402px;
     margin: 10px 0px;
+    color: white;
     background-color: black;
     border: none;
-    overflow: none;
+    outline: none;
+    padding: 5px 5px;
 }
     #file{
  
