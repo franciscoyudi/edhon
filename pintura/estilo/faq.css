@@ -1,0 +1,77 @@
+#FAQ{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    height: 826px;
+    padding: 100px 0px;
+    width: 100%;
+}
+#FAQh1{
+    text-align: center;
+    font-size: 3.5em;
+    color: white;
+    padding: 20px;
+    margin:40px 0px ;
+    display: block;
+    width: 100%;
+}
+details{
+    padding: 10px 20px;
+    font-size: 1.4em;
+    border-bottom: 2px solid rgb(75, 74, 74);
+    cursor: pointer;
+    
+}
+.FAQ1, .FAQ2{
+    padding: 10px;
+    min-height: 50%;
+    max-width: 700px;
+    width: 500px;
+}
+
+details[open] p{
+    text-indent: 5px;
+    padding: 5px;
+    font-size: 0.8em;
+    color: rgb(150, 150, 148);
+    cursor: auto;
+}
+details[open] a{
+    text-decoration: none;
+    color: rgb(218, 236, 252);
+    transition: color 300ms ;
+}
+details[open] a:hover{
+    color: antiquewhite;
+}
+#FAQ summary{
+    list-style-type: none;
+    
+}
+summary::before{
+    content: '+ ';
+}
+details[open] summary::before{
+    
+    content: '- ';
+    
+}
+@media(max-width: 1210px){
+    #FAQ{
+        gap: 10px;
+    }
+    .FAQ1, .FAQ2{
+        min-height: 300px;
+        max-height: 700px;
+        padding: 0px;
+        
+    }
+}
+@media(max-width: 560px){
+    .FAQ1, .FAQ2{
+        width: 350px;
+    }
+}

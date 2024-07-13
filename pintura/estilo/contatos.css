@@ -1,0 +1,68 @@
+#contato{
+    padding: 50px 0px;
+    height: 500px;
+    margin-top: 0px;
+}
+#contato h1{
+    
+    font-size: 3.5em;
+    color: white;
+    padding: 20px;
+    margin:50px 0px ;
+    text-align: center;
+
+}
+.contact1,
+ .contact2,
+ .contact3{
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .contacts{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+ }
+#contato a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    transition: 300ms;
+}
+#contato a:hover{
+    transform: scale(1.1);    
+}
+.para_orçamento{
+    background: white;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    transition: 300ms;
+    display: none;
+}
+.para_orçamento:hover{
+    transform: scale(1.1); 
+}
+@media(max-width: 1210px){
+    #contato{
+        padding: 150px 0px;
+        height: 500px;
+        margin-top: 50px;
+    }
+}
+@media(max-width: 560px){
+    #contato{
+        padding: 250px 0px 0px 0px;
+        height: 500px;
+        margin-top: 250px;
+    }
+}

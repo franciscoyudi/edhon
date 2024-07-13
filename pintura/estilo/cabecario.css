@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(255, 195, 106, 0.872);
+    background: url(../img/fundo_grande.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    overflow-x: hidden;
+}
+#logo_principal{
+    clip-path: circle(50%);
+}
+#logo{
+    margin: 2px 10px 2px 30px;
+    display: flex;
+    align-items: center;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+
+.container-fluid{
+    width: 50px;
+    margin: 0px 60px;
+}
+.offcanvas-header #logo{
+    margin: 0px;
+}
+/*^BARRA DE NAVEGAÇÃO^*/
+
+/* 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 252%;
+    overflow-x: hidden;
+*/
