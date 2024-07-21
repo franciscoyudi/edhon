@@ -37,10 +37,8 @@ body{
 }
 /*^BARRA DE NAVEGAÇÃO^*/
 
-/* 
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-size: 252%;
-    overflow-x: hidden;
-*/
+@media (width < 1000px){
+    body{
+        background-position-x: 0%;
+    }
+}
