@@ -1,0 +1,167 @@
+#pinturas-cards{
+    width: 100vw;    
+}
+#abstratas, #paisagens, #frases{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#pinturas-cards h1{
+    background-color: rgb(255, 115, 0);
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+    border-radius: 5%;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #FFF;
+    font-weight: bold;
+}
+.cards_abstratas, .cards_paisagem, .cards_frases{
+    width: 80vw;
+    display: flex;
+    overflow-x: scroll;   
+    margin: auto;
+    border: rgb(146, 107, 55) 4px solid;
+    border-radius: 10px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: rgb(177, 107, 2);
+}
+
+body::-webkit-scrollbar-track{
+    background-color: rgb(253, 135, 92);
+}
+.image-card{
+
+    background-size: cover;
+    width: 230px;
+    margin: auto;
+    border-radius: 5%;
+    height: 200px;
+}
+.main-card{
+    background-color: azure;
+    border-radius: 4%;
+    width: 250px;
+    padding: 10px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+.conteudo-card h4,p{
+    text-align: center;
+}
+.modal-cards{
+    width: 100dvw;
+    height: 100dvh; 
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.623);
+    display: none;
+}
+.main-modal{
+    z-index: 21;
+    max-width: 1400px;
+    width: 85vw;
+    
+    height: 80dvh;
+    position: fixed;
+    background: white;
+    border-radius: 5%;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  
+    
+}
+.close-modal{
+    width: fit-content;
+    position: absolute;
+    right: -20px;
+}
+div.close-modal:after {
+    content: "\274c"; /* use the hex value here... */
+    font-size: 30px; 
+    color: #FFF;
+    filter: grayscale(100%);
+    line-height: 100px;
+    text-align: center;
+    transition: font-size 200ms ease;
+    cursor: pointer;
+    
+}
+.image-modal{
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px 0% 0% 50px;
+    width: 65%;
+    height: 100%;
+    margin-left: -5%;
+}
+.content-modal{
+    width: 45%;
+    height: 100%;
+    border-radius: 0% 30px 30px 0%;
+    margin-right: -5%;
+    background: rgb(255, 255, 255);
+}
+.content-modal h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 100px;
+}
+.content-modal p{
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+
+}
+
+@media(width < 1400px){
+    .cards_abstratas, .cards_paisagem, .cards_frases{
+        width: 90vw;
+    }
+    .image-card{
+        width: 180px;
+        height: 200px;
+    }
+    .main-card{
+        background-color: azure;
+        border-radius: 4%;
+        width: 200px;
+
+    }
+}
+@media (width < 1100px){
+    .close-modal{
+        right: 20px;
+        top: -30px;
+    }
+    .main-modal{
+        top: 120px;
+        flex-direction: column;
+    }
+    .image-modal{
+        border-radius: 50px 50px 0% 0% ;
+        width: 100%;
+        height: 65%;
+        margin-top: -3%;
+        margin-left: 0px;
+    }
+    .content-modal{
+        width: 100%;
+        height: 45%;
+        border-radius: 0% 0% 30px 30px;
+        margin-right: -5%;
+        background: rgb(255, 255, 255);
+    }
+}
