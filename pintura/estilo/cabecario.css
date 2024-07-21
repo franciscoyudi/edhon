@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    min-height: 100vh;
+    min-height: 100dvh;
     font-family: Arial, Helvetica, sans-serif;
     background: rgba(255, 195, 106, 0.872);
     background: url(../img/fundo_grande.jpg);
