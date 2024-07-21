@@ -79,43 +79,43 @@ function CriarCards(item,card){
 
 const lista_cards_abstratas = [
   {
-    url: "../img/Abstrato/Abstrato1.png",
+    url: "./img/Abstrato/Abstrato1.png",
     titulo: "Uma linda pintura abstrata",
     desc:"Uma breve descrição sem detalhes",
     tipo: "ABSTRATA",
   },
   {
-    url: "../img/Abstrato/Abstrato2.png",
+    url: "./img/Abstrato/Abstrato2.png",
     titulo: "Uma linda pintura abstrata",
     desc:"Uma breve descrição sem detalhes",
     tipo: "ABSTRATA",
   },
   {
-    url: "../img/Abstrato/Abstrato3.png",
+    url: "./img/Abstrato/Abstrato3.png",
     titulo: "Uma linda pintura abstrata",
     desc:"Uma breve descrição sem detalhes",
     tipo: "ABSTRATA",
   },
   {
-    url: "../img/Abstrato/Abstrato4.png",
+    url: "./img/Abstrato/Abstrato4.png",
     titulo: "Uma linda pintura abstrata",
     desc:"Uma breve descrição sem detalhes",
     tipo: "ABSTRATA",
   },
   {
-    url: "../img/Abstrato/Abstrato5.png",
+    url: "./img/Abstrato/Abstrato5.png",
     titulo: "Uma linda pintura abstrata",
     desc:"Uma breve descrição sem detalhes",
     tipo: "ABSTRATA",
   },
   {
-    url: "../img/Abstrato/Abstrato6.png",
+    url: "./img/Abstrato/Abstrato6.png",
     titulo: "Uma linda pintura abstrata",
     desc:"Uma breve descrição sem detalhes",
     tipo: "ABSTRATA",
   },
   {
-    url: "../img/Abstrato/Abstrato7.png",
+    url: "./img/Abstrato/Abstrato7.png",
     titulo: "Uma linda pintura abstrata",
     desc:"Uma breve descrição sem detalhes",
     tipo: "ABSTRATA",
@@ -123,25 +123,25 @@ const lista_cards_abstratas = [
 ];
 const lista_cards_paisagem = [
   {
-    url: "../img/Paisagem/Paisagem1.png",
+    url: "./img/Paisagem/Paisagem1.png",
     titulo: "Uma linda pintura de Paisagem",
     desc:"Uma breve descrição sem detalhes",
     tipo: "PAISAGEM",
   },
   {
-    url: "../img/Paisagem/Paisagem2.png",
+    url: "./img/Paisagem/Paisagem2.png",
     titulo: "Uma linda pintura de Paisagem",
     desc:"Uma breve descrição sem detalhes",
     tipo: "PAISAGEM",
   },
   {
-    url: "../img/Paisagem/Paisagem3.png",
+    url: "./img/Paisagem/Paisagem3.png",
     titulo: "Uma linda pintura de Paisagem",
     desc:"Uma breve descrição sem detalhes",
     tipo: "PAISAGEM",
   },
   {
-    url: "../img/Paisagem/Paisagem4.png",
+    url: "./img/Paisagem/Paisagem4.png",
     titulo: "Uma linda pintura de Paisagem",
     desc:"Uma breve descrição sem detalhes",
     tipo: "PAISAGEM",
@@ -149,31 +149,31 @@ const lista_cards_paisagem = [
 ]
 const lista_cards_frases = [
   {
-    url: "../img/Frases/Frases1.png",
+    url: "./img/Frases/Frases1.png",
     titulo: "Uma linda pintura de Frases",
     desc:"Uma breve descrição sem detalhes",
     tipo:"FRASE",
   },
   {
-    url: "../img/Frases/Frases2.png",
+    url: "./img/Frases/Frases2.png",
     titulo: "Uma linda pintura de Frases",
     desc:"Uma breve descrição sem detalhes",
     tipo:"FRASE",
   },
   {
-    url: "../img/Frases/Frases3.png",
+    url: "./img/Frases/Frases3.png",
     titulo: "Uma linda pintura de Frases",
     desc:"Uma breve descrição sem detalhes",
     tipo:"FRASE",
   },
   {
-    url: "../img/Frases/Frases4.png",
+    url: "./img/Frases/Frases4.png",
     titulo: "Uma linda pintura de Frases",
     desc:"Uma breve descrição sem detalhes",
     tipo:"FRASE",
   },
   {
-    url: "../img/Frases/Frases5.png",
+    url: "./img/Frases/Frases5.png",
     titulo: "Uma linda pintura de Frases",
     desc:"Uma breve descrição sem detalhes",
     tipo:"FRASE",
