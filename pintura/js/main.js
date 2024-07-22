@@ -187,10 +187,10 @@ lista_cards_abstratas.map(function(item){
   CriarCards(item,cards_div1);
 })
 lista_cards_frases.map(function(item){
-  CriarCards(item,cards_div2);
+  CriarCards(item,cards_div3);
 })
 lista_cards_paisagem.map(function(item){
-  CriarCards(item,cards_div3);
+  CriarCards(item,cards_div2);
 })  
 
 //Modal

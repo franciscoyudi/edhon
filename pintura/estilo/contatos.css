@@ -1,7 +1,7 @@
 #contato{
     padding: 50px 0px;
     height: 500px;
-    margin-top: 0px;
+    margin:200px 0px;
 }
 #contato h1{
     
@@ -61,8 +61,8 @@
 }
 @media(max-width: 560px){
     #contato{
-        padding: 250px 0px 0px 0px;
+        padding: 200px 0px 0px 0px;
         height: 500px;
-        margin-top: 250px;
+        margin-bottom: 200px;
     }
 }
