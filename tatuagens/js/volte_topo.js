@@ -19,3 +19,18 @@ window.onscroll = function() {
     backToTopBtn.style.display = "none"; // Esconde o botão
   }
 };
+
+
+//Cabeçario
+
+const header = document.querySelector(".navbar");
+const scrollInit = 200;
+window.addEventListener("scroll", () => {
+  let scrollTop = window.scrollY
+  if (scrollTop > scrollInit) {
+    header.style.display = "none";
+  } else {
+    header.style.display = "flex";
+  }
+});
+

@@ -5,8 +5,10 @@
     align-items: center;
     gap: 100px;
     color: white;
-    height: 826px;
-    padding: 100px 0px;
+    margin-top: 100px;
+background-color: rgb(12, 12, 12);
+box-shadow: 0px 0px 50px white;
+    padding: 0px 0px;
     width: 100%;
 }
 #FAQh1{
