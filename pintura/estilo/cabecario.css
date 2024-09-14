@@ -35,6 +35,34 @@ body{
 .offcanvas-header #logo{
     margin: 0px;
 }
+#offcanvasDarkNavbar{
+    background-color: rgba(204, 58, 1, 0.849) !important;
+    border-left: 2px solid rgba(184, 181, 181, 0.76);
+
+}
+.offcanvas-body{
+    padding: 0px;
+}
+/*^BARRA DE NAVEGAÇÃO^*/
+.navbar-nav{
+padding: 0rem !important;
+}
+.nav-item{
+    padding: 5px 18px;
+    border-bottom: 2px solid rgba(87, 86, 86, 0.349);
+    transition: background 300ms ease-in-out;
+}
+.nav-item:hover{
+    background-color: rgb(168, 60, 27);
+}
+.dropdown-menu{
+    background-color: rgb(207, 101, 15);
+}
+.dropdown-toggle{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 100%;
+}
 /*^BARRA DE NAVEGAÇÃO^*/
 
 @media (width < 1000px){

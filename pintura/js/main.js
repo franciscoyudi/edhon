@@ -227,3 +227,52 @@ function CriarModal(link, desc, nome) {
 
   })
 }
+
+const carr1 = document.querySelector("#carrosel1");
+const carr2 = document.querySelector("#carrosel2");
+
+const lista_pinturas = [
+  "./img/pinturas/pinturas(1).jfif",
+  "./img/pinturas/pinturas(2).jfif",
+  "./img/pinturas/pinturas(3).jfif",
+  "./img/pinturas/pinturas(4).jfif",
+  "./img/pinturas/pinturas(5).jfif",
+  "./img/pinturas/pinturas(6).jfif",
+  "./img/pinturas/pinturas(7).jfif",
+  "./img/pinturas/pinturas(8).jfif",
+  "./img/pinturas/pinturas(9).jfif",
+  "./img/pinturas/pinturas(10).jfif",
+  "./img/pinturas/pinturas(11).jfif",
+  "./img/pinturas/pinturas(12).jfif",
+]
+
+//Embaralha imagens
+function shuffle(lista_pinturas) {
+  let currentIndex = lista_pinturas.length;
+
+  while (currentIndex !== 0) {
+
+      let randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+
+      [lista_pinturas[currentIndex], lista_pinturas[randomIndex]] = [lista_pinturas[randomIndex], lista_pinturas[currentIndex]];
+  }
+}
+shuffle(lista_pinturas);
+//Fim Embaralha imagens^^
+
+lista_pinturas.map(function criar_img(item){
+  let criar_img = document.createElement("img");
+  carr1.appendChild(criar_img);
+  criar_img.src = item;
+})
+
+//Embaralha imagens
+shuffle(lista_pinturas);
+//Fim Embaralha imagens^^
+
+lista_pinturas.map(function criar_img(item){
+  let criar_img = document.createElement("img");
+  carr2.appendChild(criar_img);
+  criar_img.src = item;
+})
