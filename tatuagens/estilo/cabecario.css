@@ -9,7 +9,7 @@ html {
 body{
     min-height: 100dvh;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(29, 28, 28);
+    background:rgb(29, 28, 28);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -33,8 +33,26 @@ body{
 .offcanvas-header #logo{
     margin: 0px;
 }
-/*^BARRA DE NAVEGAÇÃO^*/
+#offcanvasDarkNavbar{
+    background-color: rgba(31, 31, 31, 0.932) !important;
+    border-left: 2px solid rgba(184, 181, 181, 0.76);
 
+}
+.offcanvas-body{
+    padding: 0px;
+}
+/*^BARRA DE NAVEGAÇÃO^*/
+.navbar-nav{
+padding: 0rem !important;
+}
+.nav-item{
+    padding: 5px 18px;
+    border-bottom: 2px solid rgba(87, 86, 86, 0.349);
+    transition: background 300ms ease-in-out;
+}
+.nav-item:hover{
+    background-color: rgb(75, 75, 75);
+}
 @media (width < 1000px){
     body{
         background-position-x: 0%;
