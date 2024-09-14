@@ -1,0 +1,53 @@
+#section3 {
+  padding: 50px;
+  overflow: hidden; /* Adicionando overflow: hidden para evitar a rolagem lateral */
+}
+
+.carrosel_imgs {
+  display: flex;
+  flex-direction: row;
+  animation-name: carrosel;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.carrosel_imgs img {
+  height: 350px;
+  margin-right: 10px; /* Espaço entre as imagens */
+  filter: drop-shadow(16px 16px 5px rgba(0, 0, 0, 0.37));
+}
+
+@keyframes carrosel {
+  0% {
+    transform: translateX(-100%);
+  }
+  50%{
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 968px) {
+  #section3 {
+    padding: 130px 0px;
+  }
+
+@keyframes carrosel {
+  0% {
+    transform: translateX(-210%);
+  }
+  50%{
+    transform: translateX(-90%);
+  }
+  100% {
+    transform: translateX(-210%);
+  }
+}
+
+  .carrosel_imgs img {
+    height: 240px;
+  }
+}
