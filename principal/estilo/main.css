@@ -3,7 +3,16 @@
     src: url('../../fontes/KOMIKAX_.ttf') format('opentype');
     font-weight: normal;
 }
-
+@font-face {
+    font-family: 'Primary';
+    src: url('../../fontes/KGPrimaryPenmanship2.ttf') format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Comic';
+    src: url('../../fontes/Hey\ Comic.ttf') format('opentype');
+    font-weight: normal;
+}
 :root {
     --cor0: #0d0221;
     --cor1: #101419;
@@ -19,7 +28,7 @@
     max-width: 1100px;
     height: 550px;
     margin: 50px auto;
-    background: url(/imgs/8723779.jpg);
+    background: url(../../imgs/8723779.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -43,7 +52,7 @@
 
 .edhon {
     position: absolute;
-    background: url(/imgs/edhon_tatoo.jpg) no-repeat;
+    background: url(../../imgs/edhon_tatoo.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     right: 0px;
@@ -66,16 +75,7 @@
 }
 
 /*Texto sobre*/
-@font-face {
-    font-family: 'Primary';
-    src: url('/fontes/KGPrimaryPenmanship2.ttf') format('opentype');
-    font-weight: normal;
-}
-@font-face {
-    font-family: 'Comic';
-    src: url('/fontes/Hey\ Comic.ttf') format('opentype');
-    font-weight: normal;
-}
+
 #sobre_mim{
     margin: 100px 0px;
     display: flex;
@@ -118,7 +118,7 @@
         display: none;
     }
     #sobre_mim{
-        background: url(/imgs/edhon.jpg) no-repeat;
+        background: url(../imgs/edhon.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
         padding: 0;
