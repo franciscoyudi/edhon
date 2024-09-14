@@ -24,11 +24,7 @@
     font-size: 2em;
     padding: 5px;
     background: white;
-   
-
     border-radius: 10px;
-    margin-left: 5px;
-    display: none;
 }
 
 .main2 a {
@@ -38,56 +34,50 @@
 
 .img {
     border: solid black 5px;
-    margin-left: 10px;
     border-radius: 100%
-    
+}
+.main2 {
+    z-index: 0;
+    margin-top: 0px;
 }
 .main2 {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     flex-direction: row;
-
-    padding: 130px 0px;
+    overflow-x: scroll;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.87));
 }
-
 .Tatuagens {
-    transition: 300ms;
-    width: 150px;
+    width: 330px;
     height: 180px;
     display: flex;
     align-items: center;
-    border-radius: 10%;
-}
-
-
-.Tatuagens:hover {
-    width: 360px;
-    height: 180px;
+    justify-content: space-around;
     border: solid rgb(0, 0, 0) 2px;
     border-radius: 10px;
+    margin: 0px 15px;
 }
-
-.Tatuagens:hover .CardP1 {
+.Tatuagens .CardP1 {
     display: block;
 }
-
-.Cards {
-    display: flex;
-    justify-content: center;
+.main2::-webkit-scrollbar{
+    width: 10px;
+    height: 15px;
+}
+.main2::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: rgb(20, 20, 20);
 }
 
-@media(max-width: 850px){
+.main2::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0);
+}
+@media(width < 1436px){
     .main2{
-        flex-direction: column;
-    }
-    .Tatuagens {
-        width: 360px;
-        height: 180px;
-        border: solid rgb(0, 0, 0) 2px;
-        border-radius: 10px;
-    }
-    .Tatuagens .CardP1 {
-        display: block;
+        justify-content: flex-start;
     }
 }

@@ -26,9 +26,11 @@ header {
     background: linear-gradient(to right, var(--cor3) 10%, #000938 95%);
     height: 90px;
     width: 100%;
-    position: relative;
-    box-shadow: 0px 20px 17px rgba(0, 0, 0, 0.411);
-    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 17px rgba(0, 0, 0, 0.644);
+    z-index: 1000000000000000 !important;
 }
 
 .logo {
@@ -36,9 +38,7 @@ header {
 }
 
 ul {
-    position: absolute;
     display: flex;
-    bottom: 0px;
     list-style-type: none;
     border-radius: 10px;
     padding: 20px;
@@ -51,15 +51,14 @@ header a {
     text-decoration: none;
     font-weight: bolder;
     color: white;
-    padding: 21px 20px;
-    transition: 100ms;
-   
-    
+    padding: 10px 15px;
+    transition-property: color;
+    transition:background 300ms ease-in-out;
+    border-radius: 5px;
 }
-
-
 header a:hover {
-    border-bottom: 2px solid white ;
+   background-color: rgba(255, 255, 255, 0.548);
+   color: black;
 }
 
 @media (min-width: 626px) {
@@ -70,29 +69,23 @@ header a:hover {
     ul {
         right: 50px;
     }
-
-
-
-
-
 }
 
 @media (max-width: 665px) {
     header {
         background-color: var(--cor3);
         height: 170px;
+        flex-direction: column;
     }
 
     .logo {
         display: flex;
         justify-content: center;
         padding-top: 6px;
-
     }
 
     header a {
         padding: 10px 4.5px;
-
     }
 
     header nav {
