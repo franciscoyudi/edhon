@@ -194,7 +194,7 @@
 
     /*Texto Principal ao lado da foto Edhon Responsivo*/
     main .textPrinc {
-        background-image: linear-gradient(to right, #000000 10%, #000938 94%, transparent);
+        background-image: linear-gradient(to right, rgb(129, 59, 2) 10%, #aa6000 94%, transparent);
         z-index: 100;
         color: white;
         width: 100vw;
