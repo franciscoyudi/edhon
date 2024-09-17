@@ -13,9 +13,10 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100dvh;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(45deg, black, rgb(87, 82, 82))
+background-color: #001938;
+    overflow-x: hidden;
 }
 
 html {
@@ -23,7 +24,7 @@ html {
 }
 
 header {
-    background: linear-gradient(to right, var(--cor3) 10%, #000938 95%);
+    background: linear-gradient(to right, rgb(129, 59, 2) 10%, #834001 95%);
     height: 90px;
     width: 100%;
     display: flex;

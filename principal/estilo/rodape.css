@@ -1,7 +1,7 @@
 .foot {
     width: 100%;
     margin-bottom: 0px;
-    background: linear-gradient(to right, var(--cor3) 10%, #000938 95%);
+    background-image: linear-gradient(to right,rgb(129, 59, 2) 10%, #834001 95%);
     box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.575);
     padding: 30px 0px;
 }

@@ -1,35 +1,27 @@
-#c1 {
-    background: url(../img/fundo1.png);
-
-}
-
-#c2 {
-    background: url(../img/fundo2.png);
-}
-
-#c3 {
-    background: url(../img/fundo3.png);
-}
-
-#c4 {
-    background: url(../img/arteciabg.png);
+@font-face {
+    font-family: 'grafite';
+    src: url('../../fontes/KOMIKAX_.ttf') format('opentype');
+    font-weight: normal;
 }
 
 #c1,#c2,#c3,#c4 {
-    background-position: center center;
+    background: url(../img/fundo_artecia.png);
+    background-position: -140px -50px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150%;
 }
 .CardP1 {
     font-size: 2em;
     padding: 5px;
-    background: white;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 7px;
 }
 
 .main2 a {
-    color: #444242; 
+    color: #000000; 
+    font-size: .89em;
     text-decoration: none;
+    font-family: grafite;
 }
 
 .img {
