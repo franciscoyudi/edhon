@@ -15,20 +15,25 @@
     margin: 5px 0px;
     border-radius: 5px;
     align-items: center;
-
+    text-align: center;
 }
 
 .foot h3 {
     color: white;
 }
+.a2{
+    padding: 5px 5px;
+}
 .rod1 {
     background-color: rgba(255, 255, 255, 0.144);
     height: 250px;
 }
-
+.rod2{
+    height: 100px;
+    width: 330px;
+}
 @media (min-width: 664px) {
-
-
+    
     .rod1,
     .rod2 {
         background-color: rgba(255, 255, 255, 0.144);
@@ -38,7 +43,11 @@
         position: relative;
         padding: 10px;
     }
-
+    
+    .rod2{
+        height: 100px;
+        width: 330px;
+    }
 
     .foot {
         display: flex;
@@ -60,10 +69,11 @@
     .rod1 a{
         width: 300px;
     }
+
     .rod1,
     .rod2 {
         background-color: rgba(255, 255, 255, 0.144);
-        height: 250px;
+
         width: 290px;
         position: relative;
         left: 50%;
