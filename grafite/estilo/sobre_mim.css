@@ -54,7 +54,7 @@
         background-size: cover;
         background-position: center center;
         padding: 0;
-        height: 700px;
+        height: 750px;
     }
     #texto_sobre{
         backdrop-filter: blur(5px);
@@ -81,4 +81,9 @@
         padding: 10px 0px 0px 10px;
         padding-right: 15px;
 }
+}
+@media(width <430px){
+    #sobre_mim{
+        height: 900px;
+    }
 }
